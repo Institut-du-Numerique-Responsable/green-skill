@@ -1,12 +1,12 @@
 <div align="center">
 
-# Eco-design and digital sustainability rules for AI coding assistants
+# Green Skill: the generic responsible digital practice foundation for AI assistants
 
 **RGESN · GR491 · Opquast · RGAA** applied automatically by your coding assistant,
 whichever one you use.
 
-[![Site](https://img.shields.io/badge/site-skill--nr-0a7190)](https://institut-du-numerique-responsable.github.io/skill-nr/)
-[![Version](https://img.shields.io/github/v/release/Institut-du-Numerique-Responsable/skill-nr?display_name=tag&sort=semver)](https://github.com/Institut-du-Numerique-Responsable/skill-nr/releases/latest)
+[![Site](https://img.shields.io/badge/site-green--skill-0a7190)](https://institut-du-numerique-responsable.github.io/green-skill/)
+[![Version](https://img.shields.io/github/v/release/Institut-du-Numerique-Responsable/green-skill?display_name=tag&sort=semver)](https://github.com/Institut-du-Numerique-Responsable/green-skill/releases/latest)
 [![Licence](https://img.shields.io/badge/licence-CC%20BY--SA%204.0-2ea44f)](LICENSE.md)
 [![Languages covered](https://img.shields.io/badge/languages-13-1b7a4a)](#languages-covered)
 [![AI assistants](https://img.shields.io/badge/AI%20assistants-11-1b7a4a)](#supported-assistants)
@@ -19,6 +19,27 @@ whichever one you use.
 🇫🇷 [Version française](README.md)
 
 </div>
+
+## Green Skill, the generic foundation
+
+Green Skill (formerly Skill NR) is INR’s generic model for responsible digital
+practices across coding assistants. One rule source generates native formats for
+11 assistants and 13 languages. Loading and effective application depend on the client
+and must be checked.
+
+| Project | Role | Main use |
+| --- | --- | --- |
+| **Green Skill** | Generic foundation adapted to multiple assistants | Shared eco-design and accessibility rules and review methods |
+| [Green Claude](https://github.com/Institut-du-Numerique-Responsable/green-claude) | Claude integration | Skill, local audit and optional Claude Code hooks; packages for Claude.ai and the API |
+| [Green Codex](https://github.com/Institut-du-Numerique-Responsable/green-codex) | Codex integration | Design, implementation and review with evidence and a responsible digital practice summary |
+| [Green Vibe](https://github.com/Institut-du-Numerique-Responsable/green-vibe) | Mistral Vibe plugin | Rule selection, static audit and teaching report |
+
+This describes a family of tools. The specialized projects are maintained separately;
+this repository does not generate their packages and their catalogs may differ.
+Use the generic foundation for shared practices across assistants, or a specialized
+integration for its own features. Check overlapping instructions before combining them.
+
+
 
 ---
 
@@ -93,8 +114,8 @@ to reach. The assistant reads them when it opens the project.
 One prerequisite, whichever tool you use: get this repository once, somewhere.
 
 ```bash
-git clone https://github.com/Institut-du-Numerique-Responsable/skill-nr.git
-cd skill-nr
+git clone https://github.com/Institut-du-Numerique-Responsable/green-skill.git
+cd green-skill
 ```
 
 In everything below, `$REGLES` is that folder and `$PROJET` is your application's

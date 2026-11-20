@@ -48,4 +48,4 @@ Allow: /
 User-agent: CCBot
 Allow: /
 
-Sitemap: https://institut-du-numerique-responsable.github.io/skill-nr/sitemap.xml
+Sitemap: https://institut-du-numerique-responsable.github.io/green-skill/sitemap.xml
