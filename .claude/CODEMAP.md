@@ -1,4 +1,4 @@
-# CODEMAP : skill-nr
+# CODEMAP : green-skill
 
 Skills Continue (continue.dev) pour l'écoconception / numérique responsable. Tout est en français.
 

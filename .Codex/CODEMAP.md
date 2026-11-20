@@ -1,4 +1,4 @@
-# CODEMAP — skill-nr
+# CODEMAP — green-skill
 
 - `.continue/rules/` — source canonique des 15 règles de numérique responsable, transverses et par langage.
 - `.continue/agents/eco-check.md` — méthode de revue d’écoconception.

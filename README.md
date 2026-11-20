@@ -1,12 +1,12 @@
 <div align="center">
 
-# Règles d'écoconception et de numérique responsable pour assistants IA
+# Green Skill : le socle générique NR pour assistants IA
 
 **RGESN · GR491 · Opquast · RGAA** appliqués automatiquement par votre assistant de code,
 quel qu'il soit.
 
-[![Site](https://img.shields.io/badge/site-skill--nr-0a7190)](https://institut-du-numerique-responsable.github.io/skill-nr/)
-[![Version](https://img.shields.io/github/v/release/Institut-du-Numerique-Responsable/skill-nr?display_name=tag&sort=semver)](https://github.com/Institut-du-Numerique-Responsable/skill-nr/releases/latest)
+[![Site](https://img.shields.io/badge/site-green--skill-0a7190)](https://institut-du-numerique-responsable.github.io/green-skill/)
+[![Version](https://img.shields.io/github/v/release/Institut-du-Numerique-Responsable/green-skill?display_name=tag&sort=semver)](https://github.com/Institut-du-Numerique-Responsable/green-skill/releases/latest)
 [![Licence](https://img.shields.io/badge/licence-CC%20BY--SA%204.0-2ea44f)](LICENSE.md)
 [![Langages couverts](https://img.shields.io/badge/langages-13-1b7a4a)](#langages-couverts)
 [![Assistants pris en charge](https://img.shields.io/badge/assistants%20IA-11-1b7a4a)](#assistants-pris-en-charge)
@@ -19,6 +19,37 @@ quel qu'il soit.
 🇬🇧 [English version](README.en.md)
 
 </div>
+
+## Le socle générique Green Skill
+
+Green Skill (anciennement Skill NR) est le modèle générique de l’INR pour intégrer
+le numérique responsable à plusieurs assistants de code. Une source commune de
+règles produit des formats adaptés à chaque outil, pour 11 assistants et 13 langages.
+Le chargement et l’application effective dépendent du client et doivent être vérifiés.
+
+| Projet | Rôle | Pour quel usage ? |
+| --- | --- | --- |
+| **Green Skill** | Socle générique, décliné dans les formats des assistants | Partager des règles d’écoconception, d’accessibilité et des méthodes de revue entre plusieurs outils |
+| [Green Claude](https://github.com/Institut-du-Numerique-Responsable/green-claude) | Intégration spécialisée pour Claude | Skill, audit local et hooks optionnels pour Claude Code ; paquets pour Claude.ai et l’API |
+| [Green Codex](https://github.com/Institut-du-Numerique-Responsable/green-codex) | Intégration spécialisée pour Codex | Conception, développement et revue avec constats étayés et bilan NR |
+| [Green Vibe](https://github.com/Institut-du-Numerique-Responsable/green-vibe) | Plugin spécialisé pour Mistral Vibe | Sélection des règles, audit statique et rapport pédagogique |
+
+Ce positionnement décrit une famille d’outils. Les trois projets spécialisés sont
+maintenus séparément : ce dépôt ne génère pas leurs paquets et leurs catalogues peuvent différer.
+Choisissez le socle générique pour une pratique commune entre assistants, ou l’intégration
+spécialisée pour ses fonctions propres. Vérifiez les recouvrements avant de les cumuler.
+
+```mermaid
+flowchart TD
+    R[Référentiels de numérique responsable] --> G[Green Skill : socle générique]
+    G --> A[Formats pour 11 assistants]
+    R --> S[Intégrations spécialisées, maintenues séparément]
+    S --> C[Green Claude : Claude]
+    S --> O[Green Codex : Codex]
+    S --> V[Green Vibe : Mistral Vibe]
+```
+
+
 
 ---
 
@@ -86,8 +117,8 @@ service à joindre. L'assistant les lit à l'ouverture du projet.
 Un seul préalable, quel que soit l'outil : récupérer ce dépôt une fois quelque part.
 
 ```bash
-git clone https://github.com/Institut-du-Numerique-Responsable/skill-nr.git
-cd skill-nr
+git clone https://github.com/Institut-du-Numerique-Responsable/green-skill.git
+cd green-skill
 ```
 
 Dans tout ce qui suit, `$REGLES` désigne ce dossier et `$PROJET` le dépôt de votre

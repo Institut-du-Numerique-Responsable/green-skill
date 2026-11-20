@@ -1,5 +1,10 @@
 # Journal des versions
 
+## 2026-11-20 : Green Skill
+
+- Renommage de Skill NR en Green Skill et mise à jour des liens.
+- Positionnement comme socle générique ; distinction avec les intégrations spécialisées.
+
 Les changements notables de skill-nr sont documentés ici. Le projet suit le
 [versionnement sémantique](https://semver.org/lang/fr/).
 

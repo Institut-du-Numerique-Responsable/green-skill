@@ -27,7 +27,7 @@ git switch main
 git pull --ff-only
 VERSION=$(tr -d '[:space:]' < VERSION)
 bash scripts/verifier-version-release.sh "v$VERSION"
-git tag -a "v$VERSION" -m "skill-nr $VERSION"
+git tag -a "v$VERSION" -m "green-skill $VERSION"
 git push origin "v$VERSION"
 ```
 
@@ -43,7 +43,7 @@ Quand le workflow du tag est vert :
 VERSION=$(tr -d '[:space:]' < VERSION)
 gh release create "v$VERSION" \
   --verify-tag \
-  --title "skill-nr $VERSION" \
+  --title "green-skill $VERSION" \
   --notes-file CHANGELOG.md
 ```
 
